@@ -1,0 +1,74 @@
+/* Q1 */
+.logo{color: red;}
+
+/* Q2 */
+nav a{color: green; ;}
+
+/* Q3 */
+nav a:visited{color:#444}
+
+/* Q4 */
+#above-the-fold .card p{color: white;}
+
+/* Q5 */
+#above-the-fold .card button{background-color: greenyellow; color: white;}
+
+/* Q6 */
+.blog-article p::first-letter{margin-left: 30px;}
+
+/* Q7 */
+#blog{ background-color: #666; color: #cff;}
+
+/* Q8 */
+/* horizontal, vertical,blur, color */
+#gallery figure:hover{
+    -webkit-box-shadow: 10px 10px 10px #eee;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    10px 10px 10px #eee;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         10px 10px 10px #eee;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */}
+
+/* Q9 */
+#gallery figure figcaption{padding: 8px;}
+
+
+/* Q10 */
+#gallery figure:first-child img{max-width: 12vw;}
+
+/* Q11 */
+/* Set 40px of margin-top to every article and give every article a max width of 800px.
+Then set a margin-left to auto and the margin-right to auto; */
+.blog-article {margin-top: 40px; max-width: 800px; margin-left: auto; margin-right: auto;}
+
+/* Q12 */
+.blog-article .article-title{text-align: center;}
+
+/* Q13 */
+/* Use the text-transform CSS property to change the h2 in each section
+(section-header) to be uppercase */
+.section h2{text-transform: uppercase;}
+
+/* Q14 and Q15 and Q16*/
+/* Change the display property of every form input so that they are all on
+a separate line instead of being next to each other */
+/* Use margin to add some space between the form inputs (including the textarea) */
+/* Give some padding to each form input (padding is the space between the
+    content and the border) */
+.form-input {display: block; margin: 10px; padding: 5px;}
+
+/* Q17 */
+/* Give the footer a dark gray background color using rgb, and change the font
+color to a light orange using a hexadecimal value (the one with a hash #) */
+footer{background-color: rgb(68, 68, 68); color: #ff9900;}
+
+/* Q18 */
+/* Change the border-width of each form input and textarea to 4px, but only
+when a user clicks on or tabs to that input (the :focus pseudo class) */
+.form-input:focus{border-width: 4px; }
+
+/* Q19 */
+/* Before every section h2, put the 'greater than' character (>). Use the ::before pseudo element. Also, add 4px of margin-right. */
+h2::before{content:">"; margin: 4px;}
+
+/* Q20 */
+/* Select the form inputs whose type attribute is "radio" and give them a
+margin-left of 20px and a margin-right of 5px */
+.form-input input[type="radio"]{margin-left: 20px; margin-right: 5px;}
